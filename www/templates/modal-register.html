@@ -1,0 +1,26 @@
+<ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">Register</h1>
+      <i class="ion-close close-btn" ng-click="closeModal()"> </i>
+    </ion-header-bar>
+    <ion-content>
+		<div class="list">
+			<label class="item item-input">
+				<input type="text" name="f_name" id="f_name" placeholder="First Name">
+			</label>
+			<label class="item item-input">
+				<input type="text" name="l_name" id="l_name" placeholder="Last Name">
+			</label>
+			<label class="item item-input">
+				<input type="email" name="email" id="email" placeholder="Email">
+			</label>
+			<label class="item item-input">
+				<input type="password" name="password" id="password" placeholder="Password">
+			</label>
+			<label class="item item-input">
+				<input type="password" name="confirm password" id="confirm" placeholder="Confirm Password">
+			</label>
+		</div>
+		<button ng-click="processReg()" class="button custom"> Done </button>
+    </ion-content>
+  </ion-modal-view>

@@ -1,0 +1,110 @@
+.tab-nav{ background: #ff6e6f !important;}
+.tab-item{
+	color: #fff !important;
+}
+.tab-item-active{
+	color: #fff !important;
+}
+
+.info i {
+    color: #ff6e6f;
+    padding: 0px 10px 0px 0px;
+    right: 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+span.tables {
+    color: #ff6e6f;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 3px;
+}
+span.tables i{
+    padding: 0px 5px;
+}
+
+span.info {
+    display: inline-block;
+    width: 100%;
+}
+
+i.table {
+    float: left;
+}
+
+i.amount {
+    font-size: 21px;
+    float: right;
+}
+
+span.location p {
+	line-height: 100%;
+	font-size: 10px;
+}
+
+.close-btn{
+	color: #ff6e6f;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+    padding: 6px 15px;
+}
+
+
+.button.button-positive.button-clear {
+		color: #ff6e6f;
+
+}
+
+
+span.quote {
+    float: right;
+    margin-left: 20px;
+    position: absolute;
+    background: #eee;
+    padding: 15px;
+    border-radius: 10px;
+    	
+
+}
+span.quote:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #eee;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
+button.custom{
+	background: #ff6e6f;
+	display: block;
+	margin: 10px auto;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+i.time {
+    font-size: 16px;
+}
+
+span.offer-info {
+    margin-top: 50px;
+    display: block;
+}
+input.input-size-2 { max-width: 30px;}
+input.input-size-4 { max-width: 60px;}
+
+
+.padding-none { padding: 0px !important;}

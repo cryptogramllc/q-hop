@@ -1,0 +1,14 @@
+<ion-view view-title="{{offer.name}}">
+  <ion-content class="padding">
+    <img ng-src="{{offer.face}}" style="width: 64px; height: 64px">
+    <span class="quote">{{offer.quote}}</span>
+    <span class="offer-info">
+
+        <span class="item table">Booking time: <i> {{offer.time}}</i></span>
+        <span class="item price">Price for Postion: <i>{{offer.offer}}</i></span>
+    </span>
+    <button ng-click="buyItem({{offer.id}})" class="button custom"> Buy for {{offer.offer}} </button>
+
+   
+  </ion-content>
+</ion-view>

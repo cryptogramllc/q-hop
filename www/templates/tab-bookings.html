@@ -1,0 +1,15 @@
+<ion-view view-title="Bookings">
+  <ion-content class="">
+   <div class="list">
+    <a href="#/tab/bookings/{{item.id}}" class="item item-thumbnail-left" ng-repeat="item in booking">
+      <img ng-src="{{item.img}}">
+      <h2><strong>{{item.place}}</strong></h2>
+       <span class="info">
+	      <i class="ion-ios-time-outline time"> {{item.time}}</i> <br />
+	      <i> - {{item.date}}</i>
+	      <i class="amount ion-pricetag"> {{item.price}}  </i> <br />
+       </span>
+    </a>
+   </div>
+  </ion-content>
+</ion-view>

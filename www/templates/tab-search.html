@@ -1,0 +1,18 @@
+<ion-view view-title="Search Results">
+    <ion-content>
+      <div class="list">
+          <a class="item item-thumbnail-left" href="#/tab/offers" ng-click='selectItem("{{item.name}}", "{{item.display_phone}}", "{{item.image_url}}")' ng-repeat="item in data">
+            <img ng-src="{{item.image_url}}">
+            <h2>{{item.name}}</h2>
+            <p>{{item.display_phone}}</p>
+            <span class="location">
+              <p ng-repeat="address in item.location.display_address track by $index">{{address}}</p>
+           </span>
+            <span class="tables">  
+               <i class="ion-ios-star-outline">{{item.rating}}</i>   
+                <i class="ion-pricetag"> {{item.tables}}</i> 
+              </span>
+          </a>
+      </div>    
+    </ion-content>
+</ion-view>
